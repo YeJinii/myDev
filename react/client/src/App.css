@@ -1,0 +1,154 @@
+.app {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 20px;
+}
+
+.app h1 {
+    margin: 0 0 12px;
+    font-size: 30px;
+}
+
+.app>p {
+    margin: 0 0 28px;
+    color: #64748b;
+}
+
+button {
+    padding: 12px 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #334155;
+}
+
+button:hover {
+    background-color: #f1f5f9;
+}
+
+.signup-card {
+    margin-top: 24px;
+    padding: 28px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 28px rgb(15 23 42 / 8%);
+}
+
+.signup-card h2 {
+    margin: 0 0 24px;
+    font-size: 22px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #1f2937;
+}
+
+.signup-form input::placeholder {
+    color: #64748b;
+}
+
+.primary-button {
+    border-color: #2563eb;
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.primary-button:hover {
+    border-color: #1d4ed8;
+    background-color: #1d4ed8;
+}
+
+.secondary-button {
+    background-color: #f8fafc;
+}
+
+.form-message {
+    margin: 0;
+    min-height: 24px;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+    .app {
+        padding: 32px 16px;
+    }
+
+    .app h1 {
+        font-size: 24px;
+    }
+
+    .signup-card {
+        padding: 20px;
+    }
+}
+
+.post-card {
+    margin-top: 24px;
+    padding: 28px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 28px rgb(15 23 42 / 8%);
+}
+
+.post-card h2 {
+    margin: 0 0 20px;
+    font-size: 22px;
+}
+
+.post-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.post-item {
+    padding: 18px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.post-item:first-child {
+    padding-top: 0;
+}
+
+.post-item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.post-item h3 {
+    margin: 0 0 8px;
+    font-size: 17px;
+    overflow-wrap: anywhere;
+}
+
+.post-item p {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+}
+
+@media (max-width: 480px) {
+    .post-card {
+        padding: 20px;
+    }
+}

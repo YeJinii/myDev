@@ -1,5 +1,7 @@
 /**
  * Class Keyword
+ * 
+ * 객체 안에 있는 함수 -> 메소드
  */
 class IdolModel {
     // name;
