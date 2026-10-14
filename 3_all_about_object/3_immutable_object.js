@@ -25,5 +25,3 @@ console.log(Object.isExtensible(yuJin));
 yuJin['position'] = 'vocal';
 
 console.log(yuJin);
-
-Ob
